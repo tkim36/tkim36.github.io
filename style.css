@@ -99,7 +99,7 @@ nav ul li a:hover{
   height: 1250px;
   background-image: url("background.jpg");
   background-position: left;
-  background-size: 100%;
+  background-size: cover;
   background-attachment: fixed;
 }
 #intro_page_text{
