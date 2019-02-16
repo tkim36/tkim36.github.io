@@ -55,7 +55,7 @@ nav ul li a:hover{
 #containerRight{
   width: 70%;
   float: right;
-  background-color: black;
+  background-color: #1a1a1a;
 }
 #containerRight h3{
   width: 100%;
@@ -71,6 +71,7 @@ nav ul li a:hover{
   float: left;
   clear: left;
   width: 50%;
+  margin-left: -8px;
 
 }
 .projectboxR img{
@@ -97,7 +98,7 @@ nav ul li a:hover{
   margin-top: 0px;
   clear: both;
   height: 1250px;
-  background-image: url("../images/background.jpg");
+  background-image: url("background.jpg");
   background-position: left;
   background-size: 100%;
   background-attachment: fixed;
