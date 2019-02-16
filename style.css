@@ -1,0 +1,221 @@
+body{
+  background-color: white;
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+#container{
+  margin-right: 100px;
+}
+.currentPage{
+  color: #1a1a1a;
+  font-weight: bold;
+}
+#containerLeft{
+  width: 27%;
+  height: 1550px;
+  margin-top: 60px;
+  float: left;
+  position: fixed;
+
+}
+#containerLeft img{
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  transition: 3s box-shadow;
+}
+#containerLeft img:hover{
+  box-shadow: 5px 5px 5px 5px black;
+}
+nav{
+  margin-top: 30px;
+}
+nav ul li{
+  list-style: none;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: -40px;
+  text-align: center;
+}
+nav ul li p{
+  font-size: 70%;
+  color: grey;
+}
+nav ul li a{
+  text-decoration: none;
+  color: grey;
+  transition: 1s font-size;
+}
+nav ul li a:hover{
+  font-size: 120%;
+}
+
+#containerRight{
+  width: 70%;
+  float: right;
+  background-color: black;
+}
+#containerRight h3{
+  width: 100%;
+  color: black;
+  background: white;
+  text-align:center;
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 15px 0px;
+}
+.projectboxL img{
+  float: left;
+  clear: left;
+  width: 50%;
+
+}
+.projectboxR img{
+  float: right;
+  clear: right;
+  width: 50%;
+}
+.projectboxL iframe{
+  float: left;
+  clear: left;
+  width: 50%;
+  border: none;
+
+}
+.projectboxR iframe{
+  float: right;
+  clear: right;
+  width: 50%;
+  border: none;
+}
+
+#intro_page{
+  padding-top: 50px;
+  margin-top: 0px;
+  clear: both;
+  height: 1250px;
+  background-image: url("../images/background.jpg");
+  background-position: left;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+#intro_page_text{
+  width: 45%;
+  float: left;
+  margin-left: 30px;
+}
+#intro_page_text h1{
+  color: black;
+  font-size: 300%;
+}
+#intro_page_text p{
+  color: black;
+  font-size: 90%;
+}
+#intro_page_text h4{
+  color: black;
+}
+#intro_page_text h4{
+  margin-top: -30px;
+  color: grey;
+  margin-bottom: 40px;
+}
+#gif{
+  float: right;
+  width: 45%;
+  margin-top: 40px;
+  margin-right: 30px;
+}
+#links{
+  margin-top: 400px;
+  width: 40%;
+  margin-left: 30px;
+}
+#links a{
+  color: grey;
+  font-size: 10px;
+  text-decoration: none;
+  transition-property: font-size;
+  transition-duration: 1s;
+}
+#links a:hover{
+  font-size: 80%;
+  color: black;
+}
+#resume{
+  float: left;
+  border-right: 1px solid grey;
+  padding-right: 25px;
+}
+#linkedin{
+  float: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-right: 1px solid grey;
+}
+#instagram{
+  float: left;
+  padding-left: 25px;
+}
+
+#skills{
+  padding: 30px 30px 10px 30px;
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+#skills h1{
+  color:black;
+  padding: 90px 0px 50px 0px;
+}
+#skills p{
+  color: black;
+  opacity: .6;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.center{
+  clear: both;
+  width: 90%;
+  margin: 0 auto;
+}
+#leftfloat{
+  float: right;
+  width: 300px;
+}
+#leftfloat p{
+  text-align: center;
+  padding: 10px 0px;
+}
+#rightfloat{
+  float:left;
+  width: 350px;
+}
+#rightfloat p{
+  padding: 10px 0px;
+  text-align: center;
+  margin-right: 50px;
+}
+#contact{
+
+}
+#contact h1{
+
+}
+#copyright{
+  bottom: 0;
+  position: fixed;
+  margin-left: 120px;
+  float: left;
+  font-size: 40%;
+  color: grey;
+}
+.backgroundframe{
+  width: 100%;
+}
