@@ -2,6 +2,7 @@ body{
   background-color: white;
   margin: 0px;
   font-family: 'Open Sans', sans-serif;
+  min-width: 1300px;
 }
 #container{
   margin-right: 100px;
@@ -16,7 +17,7 @@ body{
   margin-top: 60px;
   float: left;
   position: fixed;
-
+  min-width: 350px;
 }
 #containerLeft img{
   width: 50%;
@@ -67,11 +68,20 @@ nav ul li a:hover{
   margin-bottom: 0;
   padding: 20px 0px;
 }
+#uxProjects h1{
+  width: 100%;
+  color: black;
+  background: white;
+  text-align:center;
+  clear: both;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px 0px;
+}
 .projectboxL img{
   float: left;
   clear: left;
   width: 50%;
-  cursor: pointer;
   transition: .5s;
 }
 .projectboxL img:hover{
@@ -95,9 +105,8 @@ nav ul li a:hover{
   width: 50%;
   border: none;
 }
-
 #intro_page{
-  padding-top: 50px;
+  padding-top: 40px;
   margin-top: 0px;
   clear: both;
   height: 1250px;
@@ -166,14 +175,15 @@ nav ul li a:hover{
 }
 
 #skills{
+  clear: both;
   padding: 30px 30px 10px 30px;
   text-align: center;
-  width: 800px;
+  width: 75%;
   margin: 0 auto;
 }
 #skills h1{
   color:black;
-  padding: 90px 0px 50px 0px;
+  padding: 90px 40px 50px 0px;
 }
 #skills p{
   color: black;
@@ -186,12 +196,12 @@ nav ul li a:hover{
 }
 .center{
   clear: both;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 #leftfloat{
   float: right;
-  width: 300px;
+  width: 50%;
 }
 #leftfloat p{
   text-align: center;
@@ -199,7 +209,7 @@ nav ul li a:hover{
 }
 #rightfloat{
   float:left;
-  width: 350px;
+  width: 50%;
 }
 #rightfloat p{
   padding: 10px 0px;
@@ -212,10 +222,16 @@ nav ul li a:hover{
 #contact h1{
 
 }
-#copyright{
-  bottom: 0;
+#footer p{
+  width: 20%;
+  float: left;
   position: fixed;
-  margin-left: 120px;
+  min-width: 350px;
+  text-align: center;
+}
+#copyright{
+  text-align: center;
+  bottom: 0;
   float: left;
   font-size: 40%;
   color: grey;
@@ -226,4 +242,7 @@ nav ul li a:hover{
 .hover{
   width: 50%;
   display: flex;
+}
+.coverphoto img{
+  width: 100%;
 }
