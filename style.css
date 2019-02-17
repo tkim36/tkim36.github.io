@@ -71,7 +71,11 @@ nav ul li a:hover{
   float: left;
   clear: left;
   width: 50%;
-
+  cursor: pointer;
+  transition: .5s;
+}
+.projectboxL img:hover{
+  opacity: .5;
 }
 .projectboxR img{
   float: right;
