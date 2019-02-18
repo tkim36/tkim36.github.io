@@ -78,6 +78,25 @@ nav ul li a:hover{
   margin-bottom: 0;
   padding: 20px 0px;
 }
+.processphotos{
+  margin: 0 auto;
+  width: 80%;
+}
+.processphotos img{
+  width: 50%;
+  clear: both;
+  margin-left:25%;
+}
+.processphotos iframe{
+  width: 50%;
+  clear: both;
+  margin-left:25%;
+}
+.projectboxL p{
+  float: left;
+  clear: left;
+  width: 50%;
+}
 .projectboxL img{
   float: left;
   clear: left;
