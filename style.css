@@ -102,6 +102,7 @@ nav ul li a:hover{
   clear: left;
   width: 50%;
   transition: .5s;
+    height: 500px;
 }
 .projectboxL img:hover{
   opacity: .5;
@@ -110,6 +111,11 @@ nav ul li a:hover{
   float: right;
   clear: right;
   width: 50%;
+  height: 500px;
+    transition: .5s;
+}
+.projectboxR img:hover{
+  opacity: .5;
 }
 .projectboxL iframe{
   float: left;
