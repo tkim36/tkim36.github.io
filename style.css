@@ -100,10 +100,13 @@ nav ul li a:hover{
 .projectboxL img{
   float: left;
   clear: left;
-  width: 50%;
+  width: 49.5%;
   height: 400px;
   transition: .5s;
   object-fit: cover;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 .projectboxL img:hover{
   opacity: .5;
@@ -115,6 +118,8 @@ nav ul li a:hover{
   height: 400px;
     transition: .5s;
     object-fit: cover;
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
 .projectboxR img:hover{
   opacity: .5;
@@ -135,6 +140,12 @@ nav ul li a:hover{
   border: none;
 }
 .projectboxF iframe{
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  border: none;
+}
+.projectboxF img{
   width: 100%;
   height: 800px;
   object-fit: cover;
