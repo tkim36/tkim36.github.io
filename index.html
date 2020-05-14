@@ -1,82 +1,77 @@
 <!DOCTYPE HTML>
 <html class="animated fadeIn">
 
+
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="animate.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <script src="script.js" charset="utf-8"></script>
 
-
 <div id="container">
 
-  <div id="containerLeft">
-    <a href="index.html"><img src="sign.png" id="sign" alt=""></a>
+  <div id="navbar">
+    <a href="index.html"><img class="logo" src="sign2.png" alt=""></a>
     <nav>
-      <ul>
-        <li><a href="about.html"> A B O U T</a></li>
-        <li><a href="index.html" class="currentPage"> W O R K</a></li>
-        <li><p><a>-  </a></p></li>
-        <li><p><a href="streetradio.html"> S T R E E T &nbsp; R A D I O &nbsp; | &nbsp; U X &nbsp; C A S E &nbsp; S T U D Y</a></p></li>
-        <li><p><a href="project_roomies.html"> R O O M I E S &nbsp; | &nbsp; U X &nbsp; C A S E &nbsp; S T U D Y </a></p></li>
-        <li><p><a href="mytyde.html"> M Y T Y D E &nbsp; | &nbsp; U X &nbsp; C O N S U L T I N G &nbsp; P R O J E C T</a></p></li>
-        <li><p><a> - </a></p></li>
-        <li><p><a href="abyss.html"> A B Y S S &nbsp; | &nbsp; I N T E R A C T I V E  &nbsp; D R A W I N G &nbsp; T O O L</a></p></li>
-        <li><p><a href="coming_to_you_live.html"> C O M I N G &nbsp; T O &nbsp; Y O U &nbsp; L I V E &nbsp; | &nbsp; I N T E R A C T I V E  &nbsp; W E B &nbsp; C A M E R A</a></p></li>
-      <!--   <li><p><a href="rec.html"> * R E C &nbsp; | &nbsp; I N T E R A C T I V E  &nbsp; W E B &nbsp; C A M E R A</a></p></li>
-      -->
-        <li><p><a> - </a></p></li>
-        <li><p><a href="teacher.html"> T E A C H E R &nbsp; | &nbsp; D O C U M E N T A R Y </a></p></li>
-        <li><p><a href="identity.html"> F O U N D &nbsp; I D E N T I T Y &nbsp;| &nbsp; G R A P H I C </a></p></li>
-        <li><p><a> W O R K B O O K </a></p></li>
-        <li><p><a> - </a></p></li>
-        <li><a href="mailto:tonykim2@illinois.edu"> C O N T A C T</a></li>
-        <!--  <div id="footer">
-            <p id="copyright"> COPYRIGHT &#169; 2019 TONY H. KIM</p>
-          </div>
-  -->
-
+      <ul class="nav_links">
+        <li><a href="#galleryContainer">Work</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="#">Sketchbook</a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-  </div>
-
-  <div id="containerRight">
-    <div id="uxProjects">
-    <h3>  U S E R &nbsp; E X P E R I E N C E &nbsp; P R O J E C T S </h3>
-    <div class="projectboxL">
-          <a href="streetradio.html"><img src="streetradio.png" alt=""></a>
-    </div>
-    <div class="projectboxR">
-          <a href="project_roomies.html"><img src="roomies_img.png" alt=""></a>
-    </div>
-    <div class="projectboxL">
-          <a href="mytyde.html"><img src="empty.png" alt=""></a>
-    </div>
-    <div id="compArt">
-      <h3> C O M P U T A T I O N A L &nbsp; D E S I G N </h3>
-      <div class="projectboxL">
-          <a href="abyss.html"> <img src="abyss_cover.png" alt=""></a>
-      </div>
-      <div class="projectboxR">
-          <a href="coming_to_you_live.html"> <img src="webcam.png" alt=""></a>
-      </div>
-      <!--<div class="projectboxL">
-          <a href="rec.html"> <img src="rec.png" alt=""></a>
-      </div>
-    -->
-    </div>
-    <div id="graphics">
-      <h3> G R A P H I C S &nbsp; A N D &nbsp; V I S U A L S </h3>
-      <div class="projectboxL">
-          <a href="teacher.html"> <img src="teacher.png" alt=""></a>
-      </div>
-      <div class="projectboxR">
-          <a href="identity.html"> <img src="graphic1.png" alt=""></a>
-      </div>
-      <div class="projectboxL">
-          <a> <img src="4-2_2.png" alt=""></a>
-      </div>
+    <div id="buttons">
+      <i class="fa fa-linkedin" ><a href="#"></a></i>
+      <i class="fa fa-envelope" ></i>
     </div>
   </div>
 
+  <div id="masthead">
+    <video autoplay loop muted>
+      <source src="masthead_video.mp4" type="video/mp4">
+    </video>
+    <h1>Hi. I'm <span style="color:#5C7F82">Tony</span>, a user experience and interaction designer currently based in Dallas, Texas. </h1>
+  </div>
 
-</div>
+  <div id="pregallery">
+    <h1> UI / UX Projects </h1>
+  </div>
+
+  <div id="galleryContainer">
+    <div class="projectBox">
+      <h1>Sound Flower</h1>
+      <p style="font-style: italic;"> Creative Coding / UI Case Study</p>
+      <p> Explores sound visualization through the means of a mobile application which records and stores sound and its corresponding imagery generated through code. Users are able to create their own "sound flower" by collecting or uploading their own sound. </p>
+      <button type="button" name="button" href="#"> Read more</button>
+    </div>
+    <video src="projects/soundflower2.mp4" autoplay loop muted type=video/mp4></video>
+  </div>
+
+  <div id="galleryContainer">
+    <div class="projectBox">
+      <h1>Hawker Sensor</h1>
+      <p style="font-style: italic;"> UI / UX Case Study</p>
+      <p> Hawker Sensor is a case study that utilizes the data set from the National Environment Agency in Singapore that measures information about Hawker centers, which are public food courts in Singapore. The case study analyzes two sources and conceptualizes a location based mobile application that allows the selected target audience to keep track of their culinary experience in Singaporean hawker centers.  </p>
+      <button type="button" name="button" href="#"> Read more</button>
+    </div>
+    <video src="projects/hawkersensor.mp4" autoplay loop muted type=video/mp4></video>
+  </div>
+
+  <div class="subtitle">
+    <h1> Interactive Design / Creative Coding </h1>
+  </div>
+
+  <div id="galleryContainer">
+    <img src="projects/soundflowerII.png" alt="">
+    <img src="projects/abyss.png" alt="">
+  </div>
+
+  <div class="subtitle">
+    <h1> Graphics / Illustrations </h1>
+  </div>
+
+  <div id="galleryContainer">
+    <img src="projects/food.png" alt="">
+    <img src="projects/book.png" alt="">
+  </div>
